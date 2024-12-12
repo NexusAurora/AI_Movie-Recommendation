@@ -1,0 +1,8 @@
+Step 1: import and parse dataset
+Step 2: extract only title and overview and delete the rest params & store this two params in a var
+Step 3: calculate the vector embeddings(vectorize) of each overview and store it beside it.
+Step 4: Accept the input from the user and vectorized(x,y... points) it as well.
+Step 4 : find cosine similararities(distance) between input vector embedding and output vector embedding points. 
+Step 5: top 3 points where cosine similarities are bigger(distances are less) those points we considers as the final points
+
+#docker build -t MovieApp .
